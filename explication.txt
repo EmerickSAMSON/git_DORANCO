@@ -1,0 +1,17 @@
+GIT est un outil de versionning => VCS (Version control System)
+Il permet d'avoir plusieurs versions des fichiers qui composent notre application (site web ou autre), et ainsi travailler en equipe tout en gardant des historiques des fichiers sur lesquels on travaille.
+
+Il existe plusieurs concurrent de GIT mais il reste le plus utilisé.
+
+GITHUB est ce qu'on appel un hébergeur de repositories (dépots) GIT. C'est à dire qu'il se charge d'héberger les versions de notre application et ainsi nous pouvons y accèder en ligne.
+
+Il existe plusieurs hébergeurs (GITBUCKET...) mais GITHUB est le plus utilisé.
+
+
+git init : initialise un dépot GIT
+git config --global user.name 'prénom NOM'
+git config --global user.email 'mail'
+git config --list (Q pour quitter)
+git add <nom des fichiers> : on envoie les fichiers dans l'index en attente de commit
+git status : donne des infos sur le dépot
+git commit -m "<commentaire sur le commit>"
